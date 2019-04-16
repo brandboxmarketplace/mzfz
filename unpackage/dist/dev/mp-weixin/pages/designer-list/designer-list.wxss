@@ -1,0 +1,8 @@
+
+page{
+	background-color: #CCCCCC;
+}
+.uni-mr {
+	margin-right: 10rpx;
+}
+

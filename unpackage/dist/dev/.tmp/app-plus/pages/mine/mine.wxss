@@ -1,0 +1,9 @@
+
+.uni-grid-9-item {
+	width: 25%
+}
+.uni-grid-9-image{
+	width: 70rpx;
+	height: 70rpx;
+}
+

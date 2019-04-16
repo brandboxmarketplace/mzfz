@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"mzfz","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"富之家居"}},"pages/type/type.html":{"window":{"navigationBarTitleText":"分类"}},"pages/3d/3d.html":{"window":{"navigationBarTitleText":"3D设计器"}},"pages/find/find.html":{"window":{"navigationBarTitleText":"发现"}},"pages/mine/mine.html":{"window":{"navigationBarTitleText":"我的"}},"pages/product-list/product-list.html":{"window":{"navigationBarTitleText":"商品列表"}},"pages/product-detail/product-detail.html":{"window":{"navigationBarTitleText":"商品详情"}},"pages/distribution/index/index.html":{"window":{"navigationBarTitleText":"商品分销"}},"pages/distribution/apply/apply.html":{"window":{"navigationBarTitleText":"申请成为合伙人"}},"pages/thumbup/index/index.html":{"window":{"navigationBarTitleText":"集赞免费领商品"}},"pages/thumbup/share/share.html":{"window":{"navigationBarTitleText":"集赞免费领商品"}},"pages/promotion/pt/pt.html":{"window":{"navigationBarTitleText":"拼团"}},"pages/promotion/miaosha/miaosha.html":{"window":{"navigationBarTitleText":"秒杀"}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登陆"}},"pages/designer-detail/designer-detail.html":{"window":{"navigationBarTitleText":"设计专家详情"}},"pages/designer-list/designer-list.html":{"window":{"navigationBarTitleText":"设计专家列表"}},"pages/fabu/fabu.html":{"window":{"navigationBarTitleText":"发布信息"}},"pages/budget/budget.html":{"window":{"navigationBarTitleText":"装修预算"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"富之家居","navigationBarBackgroundColor":"#09BB07","backgroundColor":"#09BB07"}},"tabBar":{"color":"#707070","selectedColor":"#04684e","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/index.png","selectedIconPath":"static/index1.png","text":"首页"},{"pagePath":"pages/type/type.html","iconPath":"static/type.png","selectedIconPath":"static/type1.png","text":"分类"},{"pagePath":"pages/3d/3d.html","iconPath":"static/3d.png","selectedIconPath":"static/3d1.png","text":"3D设计器"},{"pagePath":"pages/find/find.html","iconPath":"static/find.png","selectedIconPath":"static/find1.png","text":"发现"},{"pagePath":"pages/mine/mine.html","iconPath":"static/mine.png","selectedIconPath":"static/mine1.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/type/type","pages/3d/3d","pages/find/find","pages/mine/mine","pages/product-list/product-list","pages/product-detail/product-detail","pages/distribution/index/index","pages/distribution/apply/apply","pages/thumbup/index/index","pages/thumbup/share/share","pages/promotion/pt/pt","pages/promotion/miaosha/miaosha","pages/login/login","pages/designer-detail/designer-detail","pages/designer-list/designer-list","pages/fabu/fabu","pages/budget/budget"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

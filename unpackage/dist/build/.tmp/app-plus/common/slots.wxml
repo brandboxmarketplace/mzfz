@@ -1,0 +1,4 @@
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+

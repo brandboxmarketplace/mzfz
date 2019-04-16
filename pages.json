@@ -1,0 +1,153 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "富之家居"
+            }
+        },
+        {
+            "path" : "pages/type/type",
+            "style" : {
+                "navigationBarTitleText" : "分类"
+            }
+        },
+        {
+            "path" : "pages/3d/3d",
+            "style" : {
+                "navigationBarTitleText" : "3D设计器"
+            }
+        },
+        {
+            "path" : "pages/find/find",
+            "style" : {
+                "navigationBarTitleText" : "发现"
+            }
+        },
+        {
+            "path" : "pages/mine/mine",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        },
+        {
+            "path" : "pages/product-list/product-list",
+            "style" : {
+                "navigationBarTitleText" : "商品列表"
+            }
+        },
+        {
+            "path" : "pages/product-detail/product-detail",
+            "style" : {
+                "navigationBarTitleText" : "商品详情"
+            }
+        },
+        {
+            "path" : "pages/distribution/index/index",
+            "style" : {
+                "navigationBarTitleText" : "商品分销"
+            }
+        },
+        {
+            "path" : "pages/distribution/apply/apply",
+            "style" : {
+                "navigationBarTitleText" : "申请成为合伙人"
+            }
+        },
+        {
+            "path" : "pages/thumbup/index/index",
+            "style" : {
+                "navigationBarTitleText" : "集赞免费领商品"
+            }
+        },
+        {
+            "path" : "pages/thumbup/share/share",
+            "style" : {
+                "navigationBarTitleText" : "集赞免费领商品"
+            }
+        },
+        {
+            "path" : "pages/promotion/pt/pt",
+            "style" : {
+                "navigationBarTitleText" : "拼团"
+            }
+        },
+        {
+            "path" : "pages/promotion/miaosha/miaosha",
+            "style" : {
+                "navigationBarTitleText" : "秒杀"
+            }
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登陆"
+            }
+        },
+        {
+            "path" : "pages/designer-detail/designer-detail",
+            "style" : {
+                "navigationBarTitleText" : "设计专家详情"
+            }
+        }, {
+            "path" : "pages/designer-list/designer-list",
+            "style" : {
+                "navigationBarTitleText" : "设计专家列表"
+            }
+        },
+        {
+            "path" : "pages/fabu/fabu",
+            "style" : {"navigationBarTitleText":"发布信息"}
+        }
+        ,{
+            "path" : "pages/budget/budget",
+            "style" : {"navigationBarTitleText":"装修预算"}
+        }
+    ],
+    "tabBar" : {
+        "color" : "#707070",
+        "selectedColor" : "#04684e",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/index.png",
+                "selectedIconPath" : "static/index1.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/type/type",
+                "iconPath" : "static/type.png",
+                "selectedIconPath" : "static/type1.png",
+                "text" : "分类"
+            },
+            {
+                "pagePath" : "pages/3d/3d",
+                "iconPath" : "static/3d.png",
+                "selectedIconPath" : "static/3d1.png",
+                "text" : "3D设计器"
+            },
+            {
+                "pagePath" : "pages/find/find",
+                "iconPath" : "static/find.png",
+                "selectedIconPath" : "static/find1.png",
+                "text" : "发现"
+            },
+            {
+                "pagePath" : "pages/mine/mine",
+                "iconPath" : "static/mine.png",
+                "selectedIconPath" : "static/mine1.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "富之家居",
+        "navigationBarBackgroundColor" : "#09BB07",
+        "backgroundColor" : "#09BB07"
+    }
+   
+}

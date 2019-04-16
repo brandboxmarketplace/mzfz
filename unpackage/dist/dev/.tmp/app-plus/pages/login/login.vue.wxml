@@ -1,0 +1,1 @@
+<import src="/components/uni-icon.vue.wxml" /><template name="8ff3bae4"><view class="_view 8ff3bae4 uni-padding-wrap"><view class="_view 8ff3bae4" style="margin-top:200px;"><button type class="_button 8ff3bae4 uni-bg-green"><template type="weixin" data="{{...$root['0'], ...$root[$kk+'8ff3bae4-0'],$root}}" is="95e138b6"></template>微信登陆</button></view></view></template>
